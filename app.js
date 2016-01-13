@@ -33,4 +33,4 @@ console.log('Example 3: http://127.0.0.1:8080?max=10000');
 console.log('Example 4: http://127.0.0.1:8080?max=1000000');
 console.log('Example 5: http://127.0.0.1:8080?max=100');
 console.log('Example 6: http://127.0.0.1:8080?max=100');
-console.log('Example 4: http://127.0.0.1:8080?max=100');
+console.log('Example 7: http://127.0.0.1:8080?max=100');
