@@ -1,5 +1,4 @@
-var http = require('http');
-var url = require('url');
+var http = require('http'); var url = require('url');
 
 http.createServer(function handler(req, res) {
     var q = url.parse(req.url, true);
@@ -28,6 +27,6 @@ http.createServer(function handler(req, res) {
 
 console.log('Server running at http://127.0.0.1:8080/');
 console.log('Example 1: http://127.0.0.1:8080');
-console.log('Example 1: http://127.0.0.1:8080?max=100');
-console.log('Example 1: http://127.0.0.1:8080?max=10000');
-console.log('Example 1: http://127.0.0.1:8080?max=1000000');
+console.log('Example 2: http://127.0.0.1:8080?max=100');
+console.log('Example 3: http://127.0.0.1:8080?max=10000');
+console.log('Example 4: http://127.0.0.1:8080?max=1000000');
